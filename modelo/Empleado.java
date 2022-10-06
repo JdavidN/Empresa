@@ -28,7 +28,7 @@ public class Empleado {
         this.salario = 0;
         this.fecNacimiento = pFecNacimiento;
     }
-    public Empleado()
+    public Empleado(String nomEmpleado2, String apeEmpleado2, int numHoras2, int fecNacimiento2)
     {
         this.nomEmpleado = "";
         this.apeEmpleado = "";
