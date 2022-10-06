@@ -10,16 +10,16 @@ public class Test {
 
     public static void main(String[] args) 
     {
-        Empleado miEmpleado = new Empleado();
+        Empleado miEmpleado = new Empleado(null, null, 0, 0);
         VentanaPrincipal miVentana = new VentanaPrincipal();
         Controlador miControlador = new Controlador(miVentana, miEmpleado);
-
             Empleado empleado1 = new Empleado();
-            empleado1.setNomEmpleado("Javier David");
-            empleado1.setApeEmpleado("Niño Ruiz");
+            
+           empleado1.setNomEmpleado("Javier David");
+            //empleado1.setApeEmpleado("Niño Ruiz");
             System.out.println("Nombre: " + empleado1.getNomEmpleado());
             System.out.println("Apellido: " + empleado1.getApeEmpleado());
-            System.out.println("Numero Horas: " + empleado1.getNumHoras());
+            //System.out.println("Numero Horas: " + empleado1.getNumHoras());
             System.out.println("Salario: " + empleado1.getSalario());
             System.out.println("Edad: " + empleado1.getFechaNacimiento());
             System.out.println(empleado1);
